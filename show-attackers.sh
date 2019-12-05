@@ -1,7 +1,7 @@
 #!/bin/bash
 
 usage() {
-	echo "Usage: ./disable-local-user.sh [-dra] USER [USERN]
+	echo "Usage: ./show-attackers.sh [log-file] file
 	Display the number of failed logins attemps by IP address and location
        	from a log file" 1>&2;
 	exit 1;
